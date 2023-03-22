@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   font-family: "League Spartan";
+  font-size: 1.3rem;
 }
 .ContainerPart {
   display: flex;
@@ -24,6 +25,7 @@
 .NavList {
   display: flex;
   list-style-type: none;
+  margin-bottom: 0;
 }
 .NavList li {
   padding: 0 1rem;
