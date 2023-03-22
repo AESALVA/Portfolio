@@ -3,6 +3,10 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
 import Landing from './components/Landing'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { library } from "@fortawesome/fontawesome-svg-core";
+
+
 
 
 function App() {
@@ -12,15 +16,6 @@ function App() {
       <NavBar />
       <Header />
 <Landing />
-      <h1>Angel Eduardo Salva</h1>
-      <div className="card">
-        <h2>
-          I am a Full Stack developer
-        </h2>
-      </div>
-      <p className="read-the-docs">
-        Ready to start!
-      </p>
 <Footer />
     </div>
   )
