@@ -1,7 +1,6 @@
 .ContainerNav {
   border: 2px solid red;
   display: flex;
-  min-width: 100vw;
   padding: 1rem 1rem;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +24,18 @@
 .NavList {
   display: flex;
   list-style-type: none;
-  margin-bottom: 0;
+  margin: 0;
 }
 .NavList li {
   padding: 0 1rem;
+  border-bottom: 2px solid #151515; 
+  transition: 0.25s;
+  
+}
+
+.NavList li:hover{
+  transition: 0.25s;
+  border-bottom: 2px solid #6ad5ff; 
 }
 
 .BarsMenu {

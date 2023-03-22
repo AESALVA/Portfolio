@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className='ContainerNav'>
     <div className='ContainerPart'>
     <div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>
-    <div>A.Eduardo Salva</div>
+    <div>A.E.S Portfolio</div>
     </div>
     <ul className='NavList'>
         <li>Home</li>
