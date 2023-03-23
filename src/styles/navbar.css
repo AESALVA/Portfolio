@@ -1,5 +1,4 @@
 .ContainerNav {
-  border: 2px solid red;
   display: flex;
   padding: 1rem 1rem;
   justify-content: space-between;
@@ -29,12 +28,12 @@
 .NavList li {
   padding: 0 1rem;
   border-bottom: 2px solid #151515; 
-  transition: 0.25s;
+  transition: 0.35s;
   
 }
 
 .NavList li:hover{
-  transition: 0.25s;
+  transition: 0.35s;
   border-bottom: 2px solid #6ad5ff; 
 }
 
@@ -52,6 +51,19 @@
   transform: scale(0.9);
   transition-duration: 100ms;
   transition-timing-function: ease-in-out;
+}
+
+.OffCanvas{
+text-align: start;  
+}
+
+.NavListResponsive{
+  list-style-type: none;
+  padding-left: .5rem;
+}
+
+.NavListResponsive a{
+  padding: .5rem;
 }
 
 @media (max-width: 600px) {

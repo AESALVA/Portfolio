@@ -1,7 +1,7 @@
 import React from 'react'
 import "../styles/navbar.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBarsStaggered } from '@fortawesome/free-solid-svg-icons'
+import OffCanvas from './OffCanvas'
+
 
 
 const NavBar = () => {
@@ -9,7 +9,7 @@ const NavBar = () => {
     <div className='ContainerNav'>
     <div className='ContainerPart'>
     <div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>
-    <div>A.E.S Portfolio</div>
+    <div>Portfolio</div>
     </div>
     <ul className='NavList'>
         <li>Home</li>
@@ -17,7 +17,7 @@ const NavBar = () => {
         <li>Projects</li>
         <li>Contact</li>
     </ul>
-    <div className='BarsMenu'><FontAwesomeIcon className='icon' icon={faBarsStaggered} /></div>
+    <OffCanvas />
     </div>
     </>
   )
