@@ -22,11 +22,11 @@ const OffCanvas = () => {
         />
       </div>
       <Offcanvas className="OffCanvas bg-dark" show={show} placement={'top'} name={'top'} onHide={handleClose}>
-        <Offcanvas.Header className="px-3 py-2" closeButton>
-            <OffcanvasTitle className="d-flex"><div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>A.E.S</OffcanvasTitle>
+        <Offcanvas.Header className="px-3 pb-0" closeButton>
+            <OffcanvasTitle className="d-flex "><div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>A.E.S</OffcanvasTitle>
         </Offcanvas.Header>
-        <Offcanvas.Body className="p-2">
-    <ul className="NavListResponsive">
+        <Offcanvas.Body className="p-2 d-flex align-items-center pt-0">
+    <ul className="NavListResponsive ">
         <li><Nav.Link href="/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
         <li><Nav.Link href="/"><FontAwesomeIcon icon={faUserSecret} />{" "}About</Nav.Link></li>
         <li><Nav.Link href="/"><FontAwesomeIcon icon={faFolderOpen} />{" "}Projects</Nav.Link></li>

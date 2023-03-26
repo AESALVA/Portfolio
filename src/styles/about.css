@@ -1,3 +1,43 @@
 .AboutContainer{
-    border: 2px solid red;
+    border: 2px solid #0000;
+    text-align: center;
+    background-color: #313131;
+    background: linear-gradient(180deg, rgba(21,21,21,1) 0%, rgba(41,41,41,1));
+    padding: 1rem;
+}
+
+.AboutContainer p{
+    filter: opacity(80%);
+    padding: 1rem;
+    line-height: 2rem;
+}
+
+.AboutSkills{
+    display: flex;
+    justify-content: space-around;
+    transition:0.5s;
+}
+
+.Skills ul{
+    list-style-type: none;
+    text-align: justify;
+    transition:0.55s;
+    padding: 1rem;
+}
+
+.Skills li{
+    padding: .5rem;
+    border-bottom: 2px solid #151515; 
+}
+.Skills li:hover{
+    transition:0.55s;
+    border-bottom: 2px solid #6ad5ff; 
+}
+
+
+@media (max-width: 800px) {
+.AboutSkills{
+    flex-direction: column;
+    transition:0.5s;
+}
 }
