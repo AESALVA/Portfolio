@@ -10,7 +10,7 @@ const AboutMe = () => {
   const ShowMore = ()=>{
     if (seeMore==='See More') {
       setMoreText('MoreText');
-      setSeeMore('See less');
+      setSeeMore('See Less');
     } else {
       setMoreText('d-none');
       setSeeMore('See More');
