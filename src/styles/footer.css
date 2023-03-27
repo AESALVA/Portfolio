@@ -1,5 +1,5 @@
 .Footer{
-    border: 1px solid red;
+    border: 2px solid #0000;
     min-height: 10rem;
     display: flex;
     flex-direction: column;
