@@ -132,7 +132,7 @@ const Contact = () => {
       <h2>Contact</h2>
       <div className="linkedinContainer"> 
       <h3 className="p-2 d-flex">You can contact me through </h3>
-      <h3><Nav.Link className="d-flex px-2">Linked<FontAwesomeIcon icon={faLinkedin} /></Nav.Link></h3>
+      <h3><Nav.Link className="d-flex px-2 pb-1">Linked<FontAwesomeIcon icon={faLinkedin} /></Nav.Link></h3>
           <h3 className="px-2">if you want or you can send me a message</h3>
           </div>
       <div className="FormContainer">
