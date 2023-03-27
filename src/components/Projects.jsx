@@ -46,11 +46,11 @@ const Projects = () => {
             </div>
           </div>
           <div className="Card">
-          <img src="src\assets\projects1.png" alt=""></img>
+          <img src="src\assets\projects3.png" alt=""></img>
             <div className="CardBody">
               <div className="CardText">
-                <h3>JavaSports</h3>
-                <p>React App with MongoDB</p>
+                <h3>BrunoRepuestos</h3>
+                <p>HTML & CSS & Bootstrap</p>
               </div>
               <div className="CardButtons">
                 <Nav.Link href="">Go see it</Nav.Link>
@@ -61,7 +61,22 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="Card"></div>
+          <div className="Card">
+          <img src="src\assets\projects4.png" alt=""></img>
+            <div className="CardBody">
+              <div className="CardText">
+                <h3>RollingCodeGames</h3>
+                <p>HTML & CSS & Bootstrap & Javascript</p>
+              </div>
+              <div className="CardButtons">
+                <Nav.Link href="">Go see it</Nav.Link>
+                <Nav.Link href="">
+                  <FontAwesomeIcon className="mx-2" icon={faGithub} />
+                  Repo
+                </Nav.Link>
+              </div>
+            </div>
+          </div>
         </CardGroup>
       </Row>
     </Container>
