@@ -45,7 +45,15 @@
   transition: 0.55s;
 }
 
+.CardButtons a:active{
+  transition: all;
+  transform: scale(0.9);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+
 .CardButtons a:hover {
   transition: 0.55s;
   border: 2px solid #6ad5ff;
+  background:linear-gradient(180deg, #151515, #303030 )
 }

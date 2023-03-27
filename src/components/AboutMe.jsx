@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import "../styles/about.css";
+import Nav from "react-bootstrap/Nav";
 
 const AboutMe = () => {
+
+  const [moreText, setMoreText] = useState('d-none');
+  const [seeMore, setSeeMore] = useState('See More');
+  const ShowMore = ()=>{
+    if (seeMore==='See More') {
+      setMoreText('MoreText');
+      setSeeMore('See less');
+    } else {
+      setMoreText('d-none');
+      setSeeMore('See More');
+    }
+  }
   return (
     <Container className="AboutContainer">
       <div className="AboutText">
@@ -31,13 +44,26 @@ const AboutMe = () => {
           </div>
           <div className="Skills">
             <h2>Soft Skills</h2>
-            <ul> 
+            <ul>
               <li>LEADERSHIP, ADAPTABILITY</li>
               <li>PROBLEM-SOLVING</li>
               <li>TEAM PLAYER, COMMUNICATION</li>
               <li>AGILE METHODOLOGIES, SCRUM</li>
             </ul>
           </div>
+        </div>
+        <div className="MoreButton">
+          <Nav.Link onClick={ShowMore}>{seeMore}</Nav.Link>
+        </div>
+        <div className={moreText}>
+          <h2>Education</h2>
+          <ul>
+            <li>Colegio Nuestra Sra. de Montserrat - Elementary school </li>
+            <li>Inst.Tec.Sal.Lorenzo Massa - High school</li>
+            <li>Word, Excel, Power point -  Additional studies</li>
+            <li>Rectifier technician: Gasoline and diesel engines</li>
+            <li>Rolling Code School graduate - Full Stack Developer</li>
+          </ul>
         </div>
       </div>
     </Container>

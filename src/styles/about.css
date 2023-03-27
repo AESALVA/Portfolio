@@ -1,43 +1,97 @@
-.AboutContainer{
-    border: 2px solid #0000;
-    text-align: center;
-    background-color: #313131;
-    background: linear-gradient(180deg, rgba(21,21,21,1) 0%, rgba(41,41,41,1));
-    padding: 1rem;
+.AboutContainer {
+  border: 2px solid #0000;
+  text-align: center;
+  background-color: #313131;
+  background: linear-gradient(
+    180deg,
+    rgba(21, 21, 21, 1) 0%,
+    rgba(41, 41, 41, 1)
+  );
+  padding: 1rem;
 }
 
-.AboutContainer p{
-    filter: opacity(80%);
-    padding: 1rem;
-    line-height: 2rem;
+.AboutContainer p {
+  filter: opacity(80%);
+  padding: 1rem;
+  line-height: 2rem;
 }
 
-.AboutSkills{
-    display: flex;
-    justify-content: space-around;
-    transition:0.5s;
+.AboutSkills {
+  display: flex;
+  justify-content: space-around;
+  transition: 0.5s;
 }
 
-.Skills ul{
-    list-style-type: none;
-    text-align: justify;
-    transition:0.55s;
-    padding: 1rem;
+.Skills ul {
+  list-style-type: none;
+  text-align: justify;
+  transition: 0.55s;
+  padding: 1rem;
 }
 
-.Skills li{
-    padding: .5rem;
-    border-bottom: 2px solid #151515; 
+.Skills li {
+  padding: 0.5rem;
+  border-bottom: 2px solid #151515;
 }
-.Skills li:hover{
-    transition:0.55s;
-    border-bottom: 2px solid #6ad5ff; 
+.Skills li:hover {
+  transition: 0.55s;
+  border-bottom: 2px solid #6ad5ff;
 }
 
+.MoreButton {
+  display: flex;
+  justify-content: center;
+}
+
+.MoreButton a {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #151515;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  transition: 0.55s;
+}
+
+.MoreButton a:hover {
+  transition: 0.55s;
+  border: 2px solid #6ad5ff;
+  background: linear-gradient(180deg, #151515, #303030);
+}
+
+.MoreButton a:active {
+  transition: all;
+  transform: scale(0.9);
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+.MoreText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.MoreText ul {
+  list-style-type: none;
+  transition: 0.55s;
+  padding: 3rem;
+}
+
+.MoreText li {
+  padding: 0.5rem;
+  border-bottom: 2px solid #151515;
+  line-height: 2rem;
+  transition: 0.55s;
+}
+
+.MoreText li:hover {
+  transition: 0.55s;
+  border-bottom: 2px solid #6ad5ff;
+}
 
 @media (max-width: 800px) {
-.AboutSkills{
+  .AboutSkills {
     flex-direction: column;
-    transition:0.5s;
-}
+    transition: 0.5s;
+  }
 }
