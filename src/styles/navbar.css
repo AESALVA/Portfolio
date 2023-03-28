@@ -5,6 +5,7 @@
   align-items: center;
   font-family: "League Spartan";
   font-size: 1.3rem;
+  color:#ffff;
 }
 .ContainerPart {
   display: flex;

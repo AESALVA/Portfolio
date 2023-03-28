@@ -5,6 +5,8 @@
     flex-direction: column;
     align-items: center;
     font-size: 1.2rem;
+    padding: 2rem;
+    color:#ffff;
 }
 
 .ContainerLogo{
@@ -27,4 +29,22 @@ font-size: 2rem;
 
 .Footer p{
     padding: 1rem;
+}
+
+
+.Icon{
+    padding: .5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    border: 2px solid #151515;
+    transition: 1s;
+}
+
+.Icon:hover{
+    transition: 1s;
+    border: 2px solid #6ad5ff;
+    box-shadow: 0px 0px 15px 7px #6ad5ff;
+    color: #6ad5ff;
 }
