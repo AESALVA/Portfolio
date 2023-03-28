@@ -17,7 +17,7 @@ const AboutMe = () => {
     }
   }
   return (
-    <Container className="AboutContainer">
+    <Container id="About" className="AboutContainer">
       <div className="AboutText">
         <h2>About me</h2>
         <p>

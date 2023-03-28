@@ -126,7 +126,7 @@ const Contact = () => {
   useEffect(() => {}, [name, lastname, mail, text]);
 
   return (
-    <Container className="ContainerContact">
+    <Container id="Contact" className="ContainerContact">
       <h2>Contact</h2>
       <div className="linkedinContainer">
         <h3 className="p-2 d-flex">You can contact me through </h3>
