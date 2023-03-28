@@ -9,10 +9,8 @@ import validator from "validator";
 import Nav from "react-bootstrap/Nav";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -130,11 +128,20 @@ const Contact = () => {
   return (
     <Container className="ContainerContact">
       <h2>Contact</h2>
-      <div className="linkedinContainer"> 
-      <h3 className="p-2 d-flex">You can contact me through </h3>
-      <h3><Nav.Link className="d-flex px-2 pb-1">Linked<FontAwesomeIcon icon={faLinkedin} /></Nav.Link></h3>
-          <h3 className="px-2">if you want or you can send me a message</h3>
-          </div>
+      <div className="linkedinContainer">
+        <h3 className="p-2 d-flex">You can contact me through </h3>
+        <h3>
+          <Nav.Link
+            href="https://www.linkedin.com/in/angeleduardosalva"
+            target={"_blank"}
+            className="d-flex px-2 pb-1"
+          >
+            Linked
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Nav.Link>
+        </h3>
+        <h3 className="px-2">if you want or you can send me a message</h3>
+      </div>
       <div className="FormContainer">
         <Form ref={form} id="formulario">
           <Row className="my-2">

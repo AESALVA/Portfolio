@@ -55,12 +55,26 @@
 }
 
 .OffCanvas{
-text-align: start;  
+text-align: start;
+}
+
+.Color{
+  color: #ffff;
 }
 
 .NavListResponsive{
   list-style-type: none;
   padding-left: .5rem;
+  color: #ffff;
+}
+
+.NavListResponsive li{
+  border-bottom: 2px solid #151515; 
+  transition: 0.35s;
+}
+.NavListResponsive li:hover{
+  transition: 0.35s;
+  border-bottom: 2px solid #6ad5ff; 
 }
 
 .NavListResponsive a{

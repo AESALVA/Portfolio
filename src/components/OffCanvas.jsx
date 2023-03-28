@@ -23,7 +23,7 @@ const OffCanvas = () => {
       </div>
       <Offcanvas className="OffCanvas bg-dark" show={show} placement={'top'} name={'top'} onHide={handleClose}>
         <Offcanvas.Header className="px-3 pb-0" closeButton>
-            <OffcanvasTitle className="d-flex "><div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>A.E.S</OffcanvasTitle>
+            <OffcanvasTitle className="d-flex Color"><div className='ContainerImg'><img src='public/Logo.jpg' alt='logo' ></img></div>A.E.S</OffcanvasTitle>
         </Offcanvas.Header>
         <Offcanvas.Body className="p-2 d-flex align-items-center pt-0">
     <ul className="NavListResponsive ">

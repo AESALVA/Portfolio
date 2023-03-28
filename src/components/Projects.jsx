@@ -21,8 +21,8 @@ const Projects = () => {
                 <p>React App with MongoDB</p>
               </div>
               <div className="CardButtons">
-                <Nav.Link href="">Go see it</Nav.Link>
-                <Nav.Link href="">
+                <Nav.Link href="https://java-sports.vercel.app/" target={"_blank"}>Go see it</Nav.Link>
+                <Nav.Link href="https://github.com/AESALVA/JavaSports" target={"_blank"}>
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>
@@ -37,8 +37,8 @@ const Projects = () => {
                 <p>HTML & CSS & Bootstrap</p>
               </div>
               <div className="CardButtons">
-                <Nav.Link href="">Go see it</Nav.Link>
-                <Nav.Link href="">
+                <Nav.Link href="https://networkking.netlify.app/index.html" target={"_blank"}>Go see it</Nav.Link>
+                <Nav.Link href="https://github.com/AESALVA/proyecto" target={"_blank"}>
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>
@@ -53,8 +53,8 @@ const Projects = () => {
                 <p>HTML & CSS & Bootstrap</p>
               </div>
               <div className="CardButtons">
-                <Nav.Link href="">Go see it</Nav.Link>
-                <Nav.Link href="">
+                <Nav.Link href="https://brunorepuestos.netlify.app/index.html" target={"_blank"}>Go see it</Nav.Link>
+                <Nav.Link href="https://github.com/AESALVA/BP_Repuestos/tree/main/BP_REPUESTOS" target={"_blank"}>
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>
@@ -69,8 +69,8 @@ const Projects = () => {
                 <p>HTML & CSS & Bootstrap & Javascript</p>
               </div>
               <div className="CardButtons">
-                <Nav.Link href="">Go see it</Nav.Link>
-                <Nav.Link href="">
+                <Nav.Link href="https://rollingcodegames.netlify.app/" target={"_blank"}>Go see it</Nav.Link>
+                <Nav.Link href="https://github.com/AESALVA/RollingGames" target={"_blank"}>
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>

@@ -10,13 +10,13 @@ const Footer = () => {
     <>
       <div className="Footer mt-auto">
         <div className="ContainerLogo Icon">
-          <img src="public/Logo.jpg" alt="logo" />
+          <Nav.Link href="/"><img src="public/Logo.jpg" alt="logo" /></Nav.Link>
         </div>
         <div className="SocialIcons">
-          <div className="Icon"><Nav.Link className="d-flex"><FontAwesomeIcon icon={faFacebook} /></Nav.Link></div>
-          <div className="Icon"><Nav.Link className="d-flex"><FontAwesomeIcon icon={faInstagram} /></Nav.Link></div>
-          <div className="Icon"><Nav.Link className="d-flex"><FontAwesomeIcon icon={faGithub} /></Nav.Link></div>
-          <div className="Icon"><Nav.Link className="d-flex"><FontAwesomeIcon icon={faSpotify} /></Nav.Link></div>
+          <div className="Icon"><Nav.Link href="https://www.facebook.com/eduardo.salva.104/" target={"_blank"} className="d-flex"><FontAwesomeIcon icon={faFacebook} /></Nav.Link></div>
+          <div className="Icon"><Nav.Link href="https://www.instagram.com/negro______/" target={"_blank"} className="d-flex"><FontAwesomeIcon icon={faInstagram} /></Nav.Link></div>
+          <div className="Icon"><Nav.Link href="https://github.com/AESALVA" target={"_blank"} className="d-flex"><FontAwesomeIcon icon={faGithub} /></Nav.Link></div>
+          <div className="Icon"><Nav.Link href="https://open.spotify.com/playlist/7k0FcJYfgUb6yObnFa6iBs?si=e6f8c5533a434e96" target={"_blank"} className="d-flex"><FontAwesomeIcon icon={faSpotify} /></Nav.Link></div>
         </div>
         <p>Copyright © 2023 Angel Eduardo Salva</p>
       </div>
