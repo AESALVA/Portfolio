@@ -71,3 +71,16 @@ color:#ffff;
 transition: 1s;
 }
 
+
+@media (max-width: 1150px) {
+  .CristalCardContainer{
+      padding: 3rem;
+      flex-direction: column;
+  }
+.ContainerPicture{
+  width: 15rem;
+  height: 15rem;
+  
+}
+
+}
