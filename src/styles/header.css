@@ -67,7 +67,6 @@
   padding: 2rem;
   text-align: center;
   border-radius: 1rem;
-  transition: 1s;
   color: #151515;
   background:linear-gradient(180deg, #151515, #303030 );
   display: flex;
@@ -92,22 +91,28 @@
   opacity: 0;
   scale:0.95;
   pointer-events: none;
-  transition: 1s;
+  transition: 2s;
   border-radius: 1rem;
   background: linear-gradient(90deg,#9bddf7, #6ad5ff);
 }
 
-.TextProfileBack:hover::after{
-  animation: pulse 1s;
-  transition: 1s;
+.TextProfileBackOn::after{
+  animation: pulse 3s;
+  transition: 2s;
 }
 
 
-.TextProfile:hover {
+.TextProfileOn{
   filter: drop-shadow(1px 1px 10px #6ad5ff);
   box-shadow: 0px 0px 15px 5px #6ad5ff;
   color: #ffff;
-  transition: 1s;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 1rem;
+  background:linear-gradient(180deg, #151515, #303030 );
+  display: flex;
+  align-items: center;
+  transition-delay: 2s;
 }
 
 @media (max-width: 1150px) {
