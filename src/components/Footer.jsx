@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="Footer mt-auto">
-        <div className="ContainerLogo Icon">
+        <div className="ContainerLogo">
           <Nav.Link href="/"><img src="public/Logo.jpg" alt="logo" /></Nav.Link>
         </div>
         <div className="SocialIcons">
