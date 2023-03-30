@@ -32,6 +32,7 @@ const OffCanvas = () => {
         className="OffCanvas bg-dark"
         show={show}
         placement={"top"}
+        scroll={true}
         onHide={handleClose}
         name={"top"}
       >
@@ -47,24 +48,23 @@ const OffCanvas = () => {
           <ul className="NavListResponsive ">
             <li>
               <Nav.Link
-                onClick={handleClose}
                 href="https://aesalva.github.io/portfolio/"
               >
                 <FontAwesomeIcon icon={faHouse} /> Home
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link href="#About" onClick={handleClose}>
+              <Nav.Link href="#About" onClick={handleClose} >
                 <FontAwesomeIcon icon={faUserSecret} /> About
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link href="#Projects" onClick={handleClose}>
+              <Nav.Link href="#Projects" onClick={handleClose}  >
                 <FontAwesomeIcon icon={faFolderOpen} /> Projects
               </Nav.Link>
             </li>
             <li>
-              <Nav.Link href="#Contact" onClick={handleClose}>
+              <Nav.Link href="#Contact" onClick={handleClose} >
                 <FontAwesomeIcon icon={faEnvelopeCircleCheck} /> Contact
               </Nav.Link>
             </li>
