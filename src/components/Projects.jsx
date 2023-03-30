@@ -7,6 +7,9 @@ import Nav from "react-bootstrap/Nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faGithub } from "@fortawesome/free-brands-svg-icons";
 import  projects1  from '../assets/projects1.png';
+import projects2 from '../assets/projects22.png';
+import projects3 from '../assets/projects3.png';
+import projects4 from '../assets/projects4.png';
 
 const Projects = () => {
   return (
@@ -32,7 +35,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="Card">
-          <img src="src\assets\projects22.png" alt="projectTwo"></img>
+          <img src={projects2} alt="projectTwo"></img>
             <div className="CardBody">
               <div className="CardText">
                 <h3>NetworKKing</h3>
@@ -48,7 +51,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="Card">
-          <img src="src\assets\projects3.png" alt=""></img>
+          <img src={projects3} alt=""></img>
             <div className="CardBody">
               <div className="CardText">
                 <h3>BrunoRepuestos</h3>
@@ -64,7 +67,7 @@ const Projects = () => {
             </div>
           </div>
           <div className="Card">
-          <img src="src\assets\projects4.png" alt=""></img>
+          <img src={projects4} alt=""></img>
             <div className="CardBody">
               <div className="CardText">
                 <h3>RollingCodeGames</h3>

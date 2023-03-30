@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../styles/header.css";
+import Eduardo from '../assets/eduardoprofile.png';
 
 const Header = () => {
 
@@ -20,7 +21,7 @@ const [styleTwo, setStyleTwo] = useState('');
               <div className={style}>
               <div className="ContainerPicture">
                   <img
-                    src="eduardoprofile.png"
+                    src={Eduardo}
                     alt="profilepicture"
                   />
                 </div>
