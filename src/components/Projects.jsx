@@ -14,7 +14,7 @@ const Projects = () => {
       <Row className="md-2 py-4">
         <CardGroup className="CardProjects">
           <div className="Card">
-            <img src="/src/assets/projects1.png" alt="projectOne"></img>
+            <img src="/portfolio/src/assets/projects1.png" alt="projectOne"></img>
             <div className="CardBody">
               <div className="CardText">
                 <h3>JavaSports</h3>
