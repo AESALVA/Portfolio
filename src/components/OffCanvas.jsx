@@ -21,7 +21,7 @@ const OffCanvas = () => {
           icon={faBarsStaggered}
         />
       </div>
-      <Offcanvas className="OffCanvas bg-dark" show={show} placement={'top'} name={'top'} onHide={handleClose}>
+      <Offcanvas className="OffCanvas bg-dark" show={show} placement={'top'} name={'top'}>
         <Offcanvas.Header className="px-3 pb-0" closeButton>
             <OffcanvasTitle className="d-flex Color"><div className='ContainerImg'><img src='Logo.jpg' alt='logo' ></img></div>A.E.S</OffcanvasTitle>
         </Offcanvas.Header>
