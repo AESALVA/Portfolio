@@ -16,7 +16,7 @@ const NavBar = () => {
     <div><Nav.Link href='https://aesalva.github.io/portfolio/'>Portfolio</Nav.Link> </div>
     </div>
     <ul className='NavList'>
-        <li><Nav.Link href="/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
+        <li><Nav.Link href="https://aesalva.github.io/portfolio/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
         <li><Nav.Link href="#About"><FontAwesomeIcon icon={faUserSecret} />{" "}About</Nav.Link></li>
         <li><Nav.Link href="#Projects"><FontAwesomeIcon icon={faFolderOpen} />{" "}Projects</Nav.Link></li>
         <li><Nav.Link href="#Contact"><FontAwesomeIcon icon={faEnvelopeCircleCheck} />{" "}Contact</Nav.Link></li>
