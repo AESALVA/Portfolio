@@ -27,7 +27,7 @@ const OffCanvas = () => {
         </Offcanvas.Header>
         <Offcanvas.Body className="p-2 d-flex align-items-center pt-0">
     <ul className="NavListResponsive ">
-        <li><Nav.Link onClick={handleClose}  href="/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
+        <li><Nav.Link onClick={handleClose}  href="https://aesalva.github.io/portfolio/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
         <li><Nav.Link onClick={handleClose} href="#About"><FontAwesomeIcon icon={faUserSecret} />{" "}About</Nav.Link></li>
         <li><Nav.Link onClick={handleClose}  href="#Projects"><FontAwesomeIcon icon={faFolderOpen} />{" "}Projects</Nav.Link></li>
         <li><Nav.Link onClick={handleClose}  href="#Contact"><FontAwesomeIcon icon={faEnvelopeCircleCheck} />{" "}Contact</Nav.Link></li>

@@ -13,7 +13,7 @@ const NavBar = () => {
     <div className='ContainerNav'>
     <div className='ContainerPart'>
     <div className='ContainerImg'><Nav.Link href='/'><img src='Logo.jpg' alt='logo' ></img></Nav.Link></div>
-    <div><Nav.Link href='/'>Portfolio</Nav.Link> </div>
+    <div><Nav.Link href='https://aesalva.github.io/portfolio/'>Portfolio</Nav.Link> </div>
     </div>
     <ul className='NavList'>
         <li><Nav.Link href="/"><FontAwesomeIcon icon={faHouse} />{" "}Home</Nav.Link></li>
