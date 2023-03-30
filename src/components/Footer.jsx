@@ -10,7 +10,7 @@ const Footer = () => {
     <>
       <div className="Footer mt-auto">
         <div className="ContainerLogo">
-          <Nav.Link href="/"><img src="/Logo.jpg" alt="logo" /></Nav.Link>
+          <Nav.Link href="/"><img src="Logo.jpg" alt="logo" /></Nav.Link>
         </div>
         <div className="SocialIcons">
           <div className="Icon"><Nav.Link href="https://www.facebook.com/eduardo.salva.104/" target={"_blank"} className="d-flex"><FontAwesomeIcon icon={faFacebook} /></Nav.Link></div>

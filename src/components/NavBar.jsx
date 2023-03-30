@@ -12,7 +12,7 @@ const NavBar = () => {
   return (<>
     <div className='ContainerNav'>
     <div className='ContainerPart'>
-    <div className='ContainerImg'><Nav.Link href='/'><img src='public/Logo.jpg' alt='logo' ></img></Nav.Link></div>
+    <div className='ContainerImg'><Nav.Link href='/'><img src='Logo.jpg' alt='logo' ></img></Nav.Link></div>
     <div><Nav.Link href='/'>Portfolio</Nav.Link> </div>
     </div>
     <ul className='NavList'>
