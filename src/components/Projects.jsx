@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Nav from "react-bootstrap/Nav";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {  faGithub } from "@fortawesome/free-brands-svg-icons";
+import  projects1  from '../assets/projects1.png';
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
       <Row className="md-2 py-4">
         <CardGroup className="CardProjects">
           <div className="Card">
-            <img src="../assets/projects1.png" alt="projectOne"></img>
+            <img src={projects1} alt="projectOne"></img>
             <div className="CardBody">
               <div className="CardText">
                 <h3>JavaSports</h3>
@@ -23,6 +24,7 @@ const Projects = () => {
               <div className="CardButtons">
                 <Nav.Link href="https://java-sports.vercel.app/" target={"_blank"}>Go see it</Nav.Link>
                 <Nav.Link href="https://github.com/AESALVA/JavaSports" target={"_blank"}>
+                  
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>
