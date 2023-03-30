@@ -134,9 +134,10 @@
     gap: 1rem;
   }
 
-  .TextProfile {
-    font-size: 0.7rem;
+  .TextProfileOn{
+    font-size: .7rem;
     flex-direction: column;
     gap:1rem;
   }
 }
+
