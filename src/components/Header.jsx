@@ -20,7 +20,7 @@ const [styleTwo, setStyleTwo] = useState('');
               <div className={style}>
               <div className="ContainerPicture">
                   <img
-                    src="src/assets/eduardoprofile.png"
+                    src="../assets/eduardoprofile.png"
                     alt="profilepicture"
                   />
                 </div>
