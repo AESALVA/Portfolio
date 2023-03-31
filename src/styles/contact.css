@@ -83,3 +83,12 @@
 flex-direction: column;
 }
 }
+
+@media (max-width:600px){
+    .linkedinContainer a{
+        background: linear-gradient(180deg, #151515, #303030);
+    }
+    .SubmitButton a{
+        background: linear-gradient(180deg, #151515, #303030);
+    }
+}

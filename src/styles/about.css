@@ -96,3 +96,9 @@
     transition: 0.5s;
   }
 }
+
+@media (max-width:600px){
+  .MoreButton a{
+    background: linear-gradient(180deg, #151515, #303030);
+  }
+}
