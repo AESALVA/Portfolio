@@ -10,7 +10,7 @@ import  projects1  from '../assets/projects1.png';
 import projects2 from '../assets/projects22.png';
 import projects3 from '../assets/projects3.png';
 import projects4 from '../assets/projects4.png';
-
+import projects5 from '../assets/projects5.png';
 const Projects = () => {
   return (
     <Container id="Projects" className="ContainerProjets">
@@ -76,6 +76,22 @@ const Projects = () => {
               <div className="CardButtons">
                 <Nav.Link href="https://rollingcodegames.netlify.app/" target={"_blank"}>Go see it</Nav.Link>
                 <Nav.Link href="https://github.com/AESALVA/RollingGames" target={"_blank"}>
+                  <FontAwesomeIcon className="mx-2" icon={faGithub} />
+                  Repo
+                </Nav.Link>
+              </div>
+            </div>
+          </div>
+          <div className="Card">
+          <img src={projects5} alt=""></img>
+            <div className="CardBody">
+              <div className="CardText">
+                <h3>BabyShower Candelaria</h3>
+                <p>React & NodeJs</p>
+              </div>
+              <div className="CardButtons">
+                <Nav.Link href="https://aesalva.github.io/babyShowerCande/" target={"_blank"}>Go see it</Nav.Link>
+                <Nav.Link href="https://github.com/AESALVA/babyShowerCande" target={"_blank"}>
                   <FontAwesomeIcon className="mx-2" icon={faGithub} />
                   Repo
                 </Nav.Link>
